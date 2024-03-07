@@ -61,15 +61,15 @@ apiRouter.post("/v/:command", async (request, response) => {
       return;
     }
 
-    try {
-      const body = reqBody(request);
-      const resBody = await VectorDb[command](body);
-      response.status(200).json({ ...resBody });
-    } catch (e) {
-      // console.error(e)
-      console.error(JSON.stringify(e));
-      response.status(500).json({ error: e.message });
-    }
+    // try {
+    //   const body = reqBody(request);
+    //   const resBody = await VectorDb[command](body);
+    //   response.status(200).json({ ...resBody });
+    // } catch (e) {
+    //   // console.error(e)
+    //   console.error(JSON.stringify(e));
+    //   response.status(500).json({ error: e.message });
+    // }
     return;
   } catch (e) {
     console.log(e.message, e);

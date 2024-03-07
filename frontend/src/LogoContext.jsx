@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import AnythingLLM from "./media/logo/anything-llm.png";
+import AnythingLLM from "./media/logo/askagi-nobg.png";
 import System from "./models/system";
 
 export const LogoContext = createContext();

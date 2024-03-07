@@ -179,7 +179,7 @@ export default function GeneralLLMPreference() {
       logo: AnythingLLMIcon,
       options: <NativeLLMOptions settings={settings} />,
       description:
-        "Use a downloaded custom Llama model for chatting on this AnythingLLM instance.",
+        "Use a downloaded custom Llama model for chatting on this askAGI instance.",
     },
   ];
 

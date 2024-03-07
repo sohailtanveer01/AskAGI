@@ -35,7 +35,7 @@ export default function AdminApiKeys() {
             </div>
             <p className="text-sm font-base text-white text-opacity-60">
               API keys allow the holder to programmatically access and manage
-              this AnythingLLM instance.
+              this askAGI instance.
             </p>
             <a
               href={paths.apiDocs()}

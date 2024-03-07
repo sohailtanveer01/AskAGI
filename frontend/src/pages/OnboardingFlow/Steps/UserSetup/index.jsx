@@ -22,7 +22,7 @@ export default function UserSetup({ setHeader, setForwardBtn, setBackBtn }) {
     if (selectedOption === "just_me" && enablePassword) {
       justMeSubmitRef.current?.click();
     } else if (selectedOption === "just_me" && !enablePassword) {
-      navigate(paths.onboarding.dataHandling());
+      navigate(paths.onboarding.createWorkspace());
     } else if (selectedOption === "my_team") {
       myTeamSubmitRef.current?.click();
     }

@@ -2,7 +2,7 @@ import useLogo from "@/hooks/useLogo";
 import System from "@/models/system";
 import showToast from "@/utils/toast";
 import { useEffect, useState } from "react";
-import AnythingLLM from "@/media/logo/anything-llm.png";
+import askAGI from "@/media/logo/askagi-nobg.png";
 import { Plus } from "@phosphor-icons/react";
 
 export default function CustomLogo() {
@@ -76,7 +76,7 @@ export default function CustomLogo() {
           alt="Uploaded Logo"
           className="w-48 h-48 object-contain mr-6"
           hidden={isDefaultLogo}
-          onError={(e) => (e.target.src = AnythingLLM)}
+          onError={(e) => (e.target.src = askAGI)}
         />
         <div className="flex flex-row gap-x-8">
           <label

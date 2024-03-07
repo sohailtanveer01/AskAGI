@@ -21,9 +21,9 @@ export default function DataConnectors() {
               </div>
               <p className="text-sm font-base text-white text-opacity-60">
                 Verified data connectors allow you to add more content to your
-                AnythingLLM workspaces with no custom code or complexity.
+                askAGI workspaces with no custom code or complexity.
                 <br />
-                Guaranteed to work with your AnythingLLM instance.
+                Guaranteed to work with your askAGI instance.
               </p>
             </div>
             <div className="py-4 w-full flex md:flex-wrap overflow-x-scroll gap-4 max-w-full">

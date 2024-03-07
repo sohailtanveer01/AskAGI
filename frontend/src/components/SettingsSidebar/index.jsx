@@ -273,15 +273,15 @@ const SidebarOptions = ({ user = null }) => (
       flex={true}
       allowedRole={["admin", "manager"]}
     />
-    <Option
+    {/* <Option
       href={paths.settings.apiKeys()}
       btnText="API Keys"
       icon={<Key className="h-5 w-5 flex-shrink-0" />}
       user={user}
       flex={true}
       allowedRole={["admin"]}
-    />
-    <Option
+    /> */}
+    {/* <Option
       href={paths.settings.llmPreference()}
       btnText="LLM Preference"
       icon={<ChatText className="h-5 w-5 flex-shrink-0" />}
@@ -304,7 +304,7 @@ const SidebarOptions = ({ user = null }) => (
       user={user}
       flex={true}
       allowedRole={["admin"]}
-    />
+    /> */}
     <Option
       href={paths.settings.dataConnectors.list()}
       btnText="Data Connectors"

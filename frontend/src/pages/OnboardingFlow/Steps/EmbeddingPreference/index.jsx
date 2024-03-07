@@ -98,7 +98,7 @@ export default function EmbeddingPreference({
     const formData = new FormData(form);
     data.EmbeddingEngine = selectedEmbedder;
     for (var [key, value] of formData.entries()) data[key] = value;
-
+    console.log(data);
     const { error } = await System.updateSystem(data);
     if (error) {
       showToast(`Failed to save embedding settings: ${error}`, "error");

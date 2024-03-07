@@ -174,7 +174,7 @@ export default function LLMPreference({
     const formData = new FormData(form);
     data.LLMProvider = selectedLLM;
     for (var [key, value] of formData.entries()) data[key] = value;
-
+    console.log(data);
     const { error } = await System.updateSystem(data);
     if (error) {
       showToast(`Failed to save LLM settings: ${error}`, "error");

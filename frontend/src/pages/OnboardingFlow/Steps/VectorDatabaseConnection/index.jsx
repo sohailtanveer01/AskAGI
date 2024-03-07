@@ -128,6 +128,7 @@ export default function VectorDatabaseConnection({
     const formData = new FormData(form);
     data.VectorDB = selectedVDB;
     for (var [key, value] of formData.entries()) data[key] = value;
+    console.log(data);
     const { error } = await System.updateSystem(data);
     if (error) {
       showToast(`Failed to save Vector Database settings: ${error}`, "error");
